@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <UserSecretsId>53b22792-b3b6-468f-b885-fb250551f854</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.Identity.MongoDbCore" Version="3.1.2" />
+    <PackageReference Include="Duende.IdentityServer" Version="6.3.0" />
+    <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.3.0" />
+    <PackageReference Include="Lighthouse.Common" Version="1.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lighthouse.Identity.Contracts\Lighthouse.Identity.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
